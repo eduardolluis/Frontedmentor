@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30   px;
+    margin: 0 0 15px 0;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin: 0 0 20px 0;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price-after {
+    font-size: 34px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    margin-right: 10px;
+}
+
+.price-before {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button img {
+    width: 20px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between the icon and text */
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 27%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
